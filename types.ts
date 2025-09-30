@@ -72,3 +72,14 @@ export interface AdHocPredictionData {
   alcohol: boolean;
   food_pattern_summary: string;
 }
+
+export interface HealthInfoSection {
+  title: string;
+  content: string;
+}
+
+export interface HealthInfo {
+  topic: string;
+  sections: HealthInfoSection[];
+  disclaimer: string;
+}
