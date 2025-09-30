@@ -47,13 +47,6 @@ const About: React.FC = () => {
           </p>
         </section>
       </div>
-      
-      <div className="mt-10 pt-6 border-t border-slate-200 dark:border-slate-700 text-center">
-        <p className="text-sm text-slate-500 dark:text-slate-400">
-          Website developed by <span className="font-semibold text-blue-600 dark:text-blue-400">Koppanathi.Hema</span>
-        </p>
-      </div>
-
     </div>
   );
 };

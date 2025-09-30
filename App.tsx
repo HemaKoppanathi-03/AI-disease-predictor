@@ -8,6 +8,7 @@ import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Spinner from './components/Spinner';
 import { Patient, DailyLog } from './types';
+import ChatbotWidget from './components/ChatbotWidget';
 
 
 export type Page = 'dashboard' | 'predictor' | 'resources' | 'about';
@@ -170,6 +171,7 @@ const App: React.FC = () => {
       <main className="p-4 sm:p-6 lg:p-8 max-w-7xl mx-auto">
         {renderPage()}
       </main>
+      <ChatbotWidget />
     </div>
   );
 };
